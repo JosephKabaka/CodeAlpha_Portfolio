@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+.nav-makeover{
+  background: transparent;
+  color: white;
+}
+
+.contactMe{
+     display: flex;
+     flex-direction: row ;
+     justify-content: space-around;
+     font-family: "Quicksand", sans-serif;
+    }
+    .contactMe a{
+        color:#ffffff ;
+        text-decoration: none;
+    }
+
+@media (max-width:798px){
+    .contactMe{
+      padding: 30px;  
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      gap: 10px;
+      justify-content: space-around;
+    }
+}

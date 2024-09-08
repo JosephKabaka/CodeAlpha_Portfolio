@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: black;
+}
+.nav-makeover{
+  background: transparent;
+  color: white;
+}
+li a:link{
+  text-decoration: none;
+}
+li a:visited{
+  text-decoration: underline;
+}
+li a:hover{
+  text-decoration: underline;
+}
+li a:active{
+  text-decoration: underline;
+}
